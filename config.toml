@@ -1,4 +1,4 @@
-theme = "base16_terminal"
+theme = "davy"
 
 [editor]
 line-number = "relative"
@@ -6,9 +6,10 @@ middle-click-paste = true
 mouse = true
 auto-pairs = false
 bufferline = "multiple"
+rulers = [100]
 
 [editor.cursor-shape]
-insert = "underline"
+insert = "bar"
 normal = "block"
 select = "underline"
 
@@ -32,6 +33,4 @@ enable = true
 
 [editor.indent-guides]
 render = true
-character = "▏"
-
-
+character = "╽"
